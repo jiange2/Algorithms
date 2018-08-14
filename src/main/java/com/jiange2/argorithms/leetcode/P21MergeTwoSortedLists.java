@@ -3,7 +3,7 @@ package com.jiange2.argorithms.leetcode;
 import com.jiange2.struct.ListNode;
 
 public class P21MergeTwoSortedLists {
-
+    //73.03
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 
         if (l1 == null && l2 == null) {
