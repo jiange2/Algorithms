@@ -24,4 +24,6 @@ class P796RotateStringTest extends Specification {
         'abcde' | 'cdeab' || true
         'abcde' | 'abced' || false
     }
+
+
 }
