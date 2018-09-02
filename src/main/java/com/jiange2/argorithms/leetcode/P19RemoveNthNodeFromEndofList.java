@@ -1,5 +1,7 @@
 package com.jiange2.argorithms.leetcode;
 
+import com.jiange2.struct.ListNode;
+
 public class P19RemoveNthNodeFromEndofList {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -38,12 +40,5 @@ public class P19RemoveNthNodeFromEndofList {
         return head;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }

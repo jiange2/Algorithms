@@ -1,6 +1,8 @@
 package com.jiange2.argorithms.leetcode;
 
 
+import com.jiange2.struct.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,13 +54,6 @@ public class P2AddTwoNumbers {
         return r;
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
 }
