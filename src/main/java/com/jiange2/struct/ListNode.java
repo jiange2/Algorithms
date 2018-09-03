@@ -21,6 +21,9 @@ public class ListNode {
     }
 
     public ListNode(List<Integer> vals){
+        if(vals == null || vals.size() == 0){
+            return;
+        }
         val = vals.get(0);
         ListNode cur = this;
         for (int i = 1; i < vals.size(); i++) {
